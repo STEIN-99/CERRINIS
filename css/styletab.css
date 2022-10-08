@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.main-container{
+    margin: auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #A64F03;
+    border-bottom: solid 5px #582b04;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #a64f03d0;
+    color: white;
+}
+
+button.btnazul{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 6px;
+    border: 2px solid blue;
+}
+
+button.btnrojo{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 6px;
+    border: 2px solid red;
+}
+
+button.btnverde{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: green;
+    border-radius: 6px;
+    border: 2px solid green;
+}
+
+button.btn{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(3, 34, 3);
+    border-radius: 6px;
+    border: 2px solid rgb(3, 34, 3);
+}
+
+
+button:hover{
+    color: black;
+    background-color: #ffffff;
+}
